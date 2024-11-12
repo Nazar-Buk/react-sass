@@ -2,3 +2,8 @@
 
 @use "./base/index" as base; // треба писати через "as" бо інакше sass не путається між двома "index"
 @use "./components/index" as components;
+@use "./pages/index" as pages;
+
+body {
+  //   background-color: lime;
+}
