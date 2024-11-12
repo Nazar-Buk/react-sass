@@ -1,0 +1,5 @@
+@use "../base/variables" as v; // так підключати змінні
+
+.card {
+  background-color: v.$bg-color-1;
+}
