@@ -1,0 +1,31 @@
+.navbar {
+  height: 200px;
+  background-color: aquamarine;
+
+  .wrap-items {
+    display: flex;
+    margin-top: 10px;
+
+    .item1 {
+      font-family: "Oswald";
+      margin-right: 10px;
+    }
+
+    .item2 {
+      font-family: serif;
+      margin-right: 10px;
+      font-family: "Oswald";
+      font-weight: bold;
+    }
+
+    .item3 {
+      font-family: serif;
+      margin-right: 10px;
+    }
+
+    .item4 {
+      font-family: serif;
+      margin-right: 10px;
+    }
+  }
+}
