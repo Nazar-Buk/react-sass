@@ -1,0 +1,82 @@
+// Так підключати гугл-шрифти
+// font-family: "Inter", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+///////////////////////////////////////////////////
+// Так підключаються шрифти які я скачав на комп
+
+// ІНСТРУКЦІЯ
+// Припустимо треба скачати шрифт Oswald, він буде regular та bold
+// 1. Шукаю в інтернеті 2 файли, для regular та bold, переважно вони будуть .ttf
+// 2. Заходжу на сайт https://www.font2web.com/ та конвертую їх у кілька різних форматів
+// 3. Зберігати шрифти треба в папці public, ьоді все норм підключиться
+// 4. Підключаю шрифти тут, для кожного шрифта regular, bold та інш... треба своє підключення. По факту те саме але треба
+// змінити font-weight або font-style
+
+// ПРИКЛАД
+// @font-face {
+//   font-family: "Oswald";
+//   src: url("../../../public/fonts/Oswald/oswald.regular.eot");
+//   src: local("☺"),
+//     url("../../../public/fonts/Oswald/oswald.regular.woff") format("woff"),
+//     url("../../../public/fonts/Oswald/oswald.regular.ttf") format("truetype"),
+//     url("../../../public/fonts/Oswald/oswald.regular.svg") format("svg");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+////////////////////////////////
+//
+@font-face {
+  font-family: "Oswald";
+  src: url("../../../public/fonts/Oswald/oswald.bold.eot");
+  src: local("☺"),
+    url("../../../public/fonts/Oswald/oswald.bold.woff") format("woff"),
+    url("../../../public/fonts/Oswald/oswald.bold.ttf") format("truetype"),
+    url("../../../public/fonts/Oswald/oswald.bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "QuirkySweet"; // Назва шрифту для використання в стилях
+  src: local("QuirkySweet-gwRR3"),
+    url("../../../public/fonts/QuirkySweet-gwRR3/QuirkySweet-gwRR3.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "28daysLater"; // Назва шрифту для використання в стилях
+  src: local("daysLater"),
+    url("../../../public/fonts/daysLater/28DaysLater.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Doto"; // Назва шрифту для використання в стилях
+  src: local("Doto"),
+    url("../../../public/fonts/Doto/Doto-VariableFont_ROND\,wght.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Doto"; // Назва шрифту для використання в стилях
+  src: local("Doto"),
+    url("../../../public/fonts/Doto/Doto-Black.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gothedge"; // Назва шрифту для використання в стилях
+  src: local("Gothedge"),
+    url("../../../public/fonts/Gothedge/ayrgothedgetrial-regular.otf")
+      format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
