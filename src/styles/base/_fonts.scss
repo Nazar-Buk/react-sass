@@ -27,6 +27,18 @@
 
 ////////////////////////////////
 //
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../../../public/fonts/Oswald/oswald.regular.eot");
+  src: local("☺"),
+    url("../../../public/fonts/Oswald/oswald.regular.woff") format("woff"),
+    url("../../../public/fonts/Oswald/oswald.regular.ttf") format("truetype"),
+    url("../../../public/fonts/Oswald/oswald.regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: "Oswald";
   src: url("../../../public/fonts/Oswald/oswald.bold.eot");
