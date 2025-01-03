@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body,
 div,
@@ -104,4 +108,12 @@ table {
 input {
   -webkit-appearance: none;
   border-radius: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* img {
+  max-width: 100%;
 }
